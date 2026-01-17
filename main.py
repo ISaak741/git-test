@@ -8,3 +8,9 @@ def subtract(x,y):
 def multiply(x,y):
     # Said Implement Multiply function
     pass
+
+def calculate(operation, x, y):
+    match operation:
+        case 'add': return add(x, y)
+        case 'multiply': return multiply(x, y)
+        case 'subtract': return subtract(x, y)
