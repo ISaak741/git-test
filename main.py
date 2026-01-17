@@ -17,3 +17,4 @@ def calculate(operation, x, y):
         case 'add': return add(x, y)
         case 'multiply': return multiply(x, y)
         case 'subtract': return subtract(x, y)
+        case 'divade': return divade(x, y)
